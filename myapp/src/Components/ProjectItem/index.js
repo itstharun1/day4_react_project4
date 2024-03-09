@@ -1,9 +1,10 @@
 const ProjectItem=(props)=>{
     const {each}=props
-    const {category}=each
+    const {imageURL,title}=each
     return(
         <div>
-            <h1>{category}</h1>
+            <img className="img1" src={imageURL}  alt="img" />
+            <h1>{title}</h1>
         </div>
     )
 }

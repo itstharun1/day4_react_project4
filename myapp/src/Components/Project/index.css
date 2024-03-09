@@ -28,10 +28,13 @@
 .projectList{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:center;
 }
 .activeTab1{
-    text-decoration: underline;
-    color: green;
-    font-weight: bold;
+    background-color: aqua;
+}
+.img1{
+    object-fit: cover;
+    height: 35vh;
+    margin: 5px;
 }
