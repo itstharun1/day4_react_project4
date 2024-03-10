@@ -37,4 +37,6 @@
     object-fit: cover;
     height: 35vh;
     margin: 5px;
+    flex-grow: 1;
+    flex-basis: 200;
 }
